@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ef MichaelYoung&#39;s  Blog</title>
+  <subtitle>Stay hungry,Stay foolish.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="lliambryan777.github.io/"/>
+  <updated>2017-01-25T13:57:02.000Z</updated>
+  <id>lliambryan777.github.io/</id>
+  
+  <author>
+    <name>Ef MiachelYoung</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用es6语法基于AngularJS来构建SPA页面</title>
+    <link href="lliambryan777.github.io/2017/01/25/create-angularjs-app-with-es6/"/>
+    <id>lliambryan777.github.io/2017/01/25/create-angularjs-app-with-es6/</id>
+    <published>2017-01-25T13:46:02.000Z</published>
+    <updated>2017-01-25T13:57:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="blog-with-angularjs-amp-amp-ECMAScript6"><a href="#blog-with-angularjs-amp-amp-ECMAScript6" class="headerlink" title="blog with angularjs &amp;&amp; ECMAScript6"></a><a href="https://github.com/williambryan777/angularjs-es6-app" target="_blank" rel="external">blog with angularjs &amp;&amp; ECMAScript6</a></h1><ul>
+<li>前端缓存系统使用Angular-cache</li>
+</ul>
+<h3 id="主要用到的技术栈"><a href="#主要用到的技术栈" class="headerlink" title="主要用到的技术栈"></a>主要用到的技术栈</h3><ul>
+<li>ECMAScript6</li>
+<li>AngularJS</li>
+<li><a href="https://github.com/angular-ui/ui-router" target="_blank" rel="external">angular-ui/ui-router</a></li>
+<li><a href="https://github.com/jmdobry/angular-cache" target="_blank" rel="external">angular-cache</a></li>
+</ul>
+<h3 id="前端工程及其自动化构建工具"><a href="#前端工程及其自动化构建工具" class="headerlink" title="前端工程及其自动化构建工具"></a>前端工程及其自动化构建工具</h3><ul>
+<li>webpack</li>
+<li>gulp</li>
+<li>PostCSS</li>
+</ul>
+<h3 id="用法-Usage（开发环境）"><a href="#用法-Usage（开发环境）" class="headerlink" title="用法/Usage（开发环境）"></a>用法/Usage（开发环境）</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">npm install </div><div class="line">npm run dev</div><div class="line">auto open http://localhost:8080</div></pre></td></tr></table></figure>
+<h3 id="发布与构建"><a href="#发布与构建" class="headerlink" title="发布与构建"></a>发布与构建</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm run build:prod</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;blog-with-angularjs-amp-amp-ECMAScript6&quot;&gt;&lt;a href=&quot;#blog-with-angularjs-amp-amp-ECMAScript6&quot; class=&quot;headerlink&quot; title=&quot;blog with angu
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>通过Hexo结合MarkDown来撰写博客</title>
+    <link href="lliambryan777.github.io/2017/01/25/hello-world/"/>
+    <id>lliambryan777.github.io/2017/01/25/hello-world/</id>
+    <published>2017-01-25T09:03:53.000Z</published>
+    <updated>2017-01-25T14:02:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>详情请参考<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a></p>
+<h2 id="Hexo特点"><a href="#Hexo特点" class="headerlink" title="Hexo特点"></a>Hexo特点</h2><h3 id="超快速度"><a href="#超快速度" class="headerlink" title="超快速度"></a>超快速度</h3><p>Node.js 所带来的超快生成速度，让上百个页面在几秒内瞬间完成渲染</p>
+<h3 id="支持-Markdown"><a href="#支持-Markdown" class="headerlink" title="支持 Markdown"></a>支持 Markdown</h3><p>Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。</p>
+<h3 id="丰富的插件"><a href="#丰富的插件" class="headerlink" title="丰富的插件"></a>丰富的插件</h3><p>Hexo 拥有强大的插件系统，安装插件可以让 Hexo 支持 Jade, CoffeeScript。</p>
+<h3 id="一键部署"><a href="#一键部署" class="headerlink" title="一键部署"></a>一键部署</h3><p>只需一条指令即可部署到 GitHub Pages, Heroku 或其他网站。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g</div><div class="line">hexo init blog</div><div class="line">cd blog</div><div class="line">npm install</div><div class="line">hexo server</div></pre></td></tr></table></figure></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;详情请参考&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Hexo特点&quot;&gt;&lt;a href=&quot;#Hexo特点&quot; class=&quot;headerlink&quot; title=&quot;H
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
