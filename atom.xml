@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="lliambryan777.github.io/"/>
-  <updated>2017-01-25T13:57:02.000Z</updated>
+  <updated>2017-01-25T14:51:12.000Z</updated>
   <id>lliambryan777.github.io/</id>
   
   <author>
@@ -20,12 +20,9 @@
     <link href="lliambryan777.github.io/2017/01/25/create-angularjs-app-with-es6/"/>
     <id>lliambryan777.github.io/2017/01/25/create-angularjs-app-with-es6/</id>
     <published>2017-01-25T13:46:02.000Z</published>
-    <updated>2017-01-25T13:57:02.000Z</updated>
+    <updated>2017-01-25T14:51:12.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="blog-with-angularjs-amp-amp-ECMAScript6"><a href="#blog-with-angularjs-amp-amp-ECMAScript6" class="headerlink" title="blog with angularjs &amp;&amp; ECMAScript6"></a><a href="https://github.com/williambryan777/angularjs-es6-app" target="_blank" rel="external">blog with angularjs &amp;&amp; ECMAScript6</a></h1><ul>
-<li>前端缓存系统使用Angular-cache</li>
-</ul>
-<h3 id="主要用到的技术栈"><a href="#主要用到的技术栈" class="headerlink" title="主要用到的技术栈"></a>主要用到的技术栈</h3><ul>
+    <content type="html"><![CDATA[<h1 id="blog-with-angularjs-amp-amp-ECMAScript6"><a href="#blog-with-angularjs-amp-amp-ECMAScript6" class="headerlink" title="blog with angularjs &amp;&amp; ECMAScript6"></a><a href="https://github.com/williambryan777/angularjs-es6-app" target="_blank" rel="external">blog with angularjs &amp;&amp; ECMAScript6</a></h1><h3 id="主要用到的技术栈"><a href="#主要用到的技术栈" class="headerlink" title="主要用到的技术栈"></a>主要用到的技术栈</h3><ul>
 <li>ECMAScript6</li>
 <li>AngularJS</li>
 <li><a href="https://github.com/angular-ui/ui-router" target="_blank" rel="external">angular-ui/ui-router</a></li>
