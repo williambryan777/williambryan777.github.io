@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="lliambryan777.github.io/"/>
-  <updated>2017-01-26T14:56:56.000Z</updated>
+  <updated>2017-01-26T14:58:35.000Z</updated>
   <id>lliambryan777.github.io/</id>
   
   <author>
@@ -16,13 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>you-do-not-need-jquery</title>
+    <title>你不需要JQuery</title>
     <link href="lliambryan777.github.io/2017/01/26/you-do-not-need-jquery/"/>
     <id>lliambryan777.github.io/2017/01/26/you-do-not-need-jquery/</id>
     <published>2017-01-26T14:51:08.000Z</published>
-    <updated>2017-01-26T14:56:56.000Z</updated>
+    <updated>2017-01-26T14:58:35.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="You-Don’t-Need-jQuery"><a href="#You-Don’t-Need-jQuery" class="headerlink" title="You Don’t Need jQuery"></a>You Don’t Need jQuery</h2><p>前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 DOM、Event 等再学习一下 jQuery 的 API。同时由于 React、Angular、Vue 等框架的流行，直接操作 DOM 不再是好的模式，jQuery 使用场景大大减少。本项目总结了大部分 jQuery API 替代的方法，暂时只支持 IE10+ 以上浏览器。</p>
+    <content type="html"><![CDATA[<h2 id="你不需要JQuery"><a href="#你不需要JQuery" class="headerlink" title="你不需要JQuery"></a>你不需要JQuery</h2><p>前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 DOM、Event 等再学习一下 jQuery 的 API。同时由于 React、Angular、Vue 等框架的流行，直接操作 DOM 不再是好的模式，jQuery 使用场景大大减少。本项目总结了大部分 jQuery API 替代的方法，暂时只支持 IE10+ 以上浏览器。</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ol>
 <li><a href="#translations">Translations</a></li>
 <li><a href="#query-selector">Query Selector</a></li>
@@ -276,7 +276,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;You-Don’t-Need-jQuery&quot;&gt;&lt;a href=&quot;#You-Don’t-Need-jQuery&quot; class=&quot;headerlink&quot; title=&quot;You Don’t Need jQuery&quot;&gt;&lt;/a&gt;You Don’t Need jQuery&lt;/
+      &lt;h2 id=&quot;你不需要JQuery&quot;&gt;&lt;a href=&quot;#你不需要JQuery&quot; class=&quot;headerlink&quot; title=&quot;你不需要JQuery&quot;&gt;&lt;/a&gt;你不需要JQuery&lt;/h2&gt;&lt;p&gt;前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 D
     
     </summary>
     

@@ -4,31 +4,34 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>you-do-not-need-jquery | Ef MichaelYoung&#39;s  Blog</title>
+    <title>你不需要JQuery | Ef MichaelYoung&#39;s  Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Ef MiachelYoung">
     
 
     
-    <meta name="description" content="You Don’t Need jQuery前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 DOM、Event 等再学习一下 jQuery 的 API。同时由于 React、Angular、Vue 等框架的流行，直接操作 DOM 不再是好的模式，jQuery 使用场景大大减少。本项目总结了大部分 jQuery API 替代的方法，暂时只支持 IE10+ 以上浏览器。
-目录">
+    <meta name="description" content="你不需要JQuery前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 DOM、Event 等再学习一下 jQuery 的 API。同时由于 React、Angular、Vue 等框架的流行，直接操作 DOM 不再是好的模式，jQuery 使用场景大大减少。本项目总结了大部分 jQuery API 替代的方法，暂时只支持 IE10+ 以上浏览器。
+目录
+Translation">
 <meta property="og:type" content="article">
-<meta property="og:title" content="you-do-not-need-jquery">
+<meta property="og:title" content="你不需要JQuery">
 <meta property="og:url" content="lliambryan777.github.io/2017/01/26/you-do-not-need-jquery/index.html">
 <meta property="og:site_name" content="Ef MichaelYoung's  Blog">
-<meta property="og:description" content="You Don’t Need jQuery前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 DOM、Event 等再学习一下 jQuery 的 API。同时由于 React、Angular、Vue 等框架的流行，直接操作 DOM 不再是好的模式，jQuery 使用场景大大减少。本项目总结了大部分 jQuery API 替代的方法，暂时只支持 IE10+ 以上浏览器。
-目录">
+<meta property="og:description" content="你不需要JQuery前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 DOM、Event 等再学习一下 jQuery 的 API。同时由于 React、Angular、Vue 等框架的流行，直接操作 DOM 不再是好的模式，jQuery 使用场景大大减少。本项目总结了大部分 jQuery API 替代的方法，暂时只支持 IE10+ 以上浏览器。
+目录
+Translation">
 <meta property="og:image" content="https://raw.github.com/alrra/browser-logos/master/chrome/chrome_48x48.png">
 <meta property="og:image" content="https://raw.github.com/alrra/browser-logos/master/firefox/firefox_48x48.png">
 <meta property="og:image" content="https://raw.github.com/alrra/browser-logos/master/internet-explorer/internet-explorer_48x48.png">
 <meta property="og:image" content="https://raw.github.com/alrra/browser-logos/master/opera/opera_48x48.png">
 <meta property="og:image" content="https://raw.github.com/alrra/browser-logos/master/safari/safari_48x48.png">
-<meta property="og:updated_time" content="2017-01-26T14:56:56.000Z">
+<meta property="og:updated_time" content="2017-01-26T14:58:35.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="you-do-not-need-jquery">
-<meta name="twitter:description" content="You Don’t Need jQuery前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 DOM、Event 等再学习一下 jQuery 的 API。同时由于 React、Angular、Vue 等框架的流行，直接操作 DOM 不再是好的模式，jQuery 使用场景大大减少。本项目总结了大部分 jQuery API 替代的方法，暂时只支持 IE10+ 以上浏览器。
-目录">
+<meta name="twitter:title" content="你不需要JQuery">
+<meta name="twitter:description" content="你不需要JQuery前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 DOM、Event 等再学习一下 jQuery 的 API。同时由于 React、Angular、Vue 等框架的流行，直接操作 DOM 不再是好的模式，jQuery 使用场景大大减少。本项目总结了大部分 jQuery API 替代的方法，暂时只支持 IE10+ 以上浏览器。
+目录
+Translation">
 <meta name="twitter:image" content="https://raw.github.com/alrra/browser-logos/master/chrome/chrome_48x48.png">
 <meta name="twitter:creator" content="@https://twitter.com/yangenfeng1616">
 
@@ -90,7 +93,7 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2017/01/26/you-do-not-need-jquery/" title="you-do-not-need-jquery" itemprop="url">you-do-not-need-jquery</a>
+      <a href="/2017/01/26/you-do-not-need-jquery/" title="你不需要JQuery" itemprop="url">你不需要JQuery</a>
   </h1>
   <p class="article-author">By
        
@@ -106,11 +109,11 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">Contents</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#You-Don’t-Need-jQuery"><span class="toc-number">1.</span> <span class="toc-text">You Don’t Need jQuery</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#目录"><span class="toc-number">2.</span> <span class="toc-text">目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Query-Selector"><span class="toc-number">3.</span> <span class="toc-text">Query Selector</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CSS-amp-Style"><span class="toc-number">4.</span> <span class="toc-text">CSS & Style</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DOM-Manipulation"><span class="toc-number">5.</span> <span class="toc-text">DOM Manipulation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Ajax"><span class="toc-number">6.</span> <span class="toc-text">Ajax</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Events"><span class="toc-number">7.</span> <span class="toc-text">Events</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Utilities"><span class="toc-number">8.</span> <span class="toc-text">Utilities</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Alternatives"><span class="toc-number">9.</span> <span class="toc-text">Alternatives</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Browser-Support"><span class="toc-number">10.</span> <span class="toc-text">Browser Support</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#本文链接地址"><span class="toc-number"></span> <span class="toc-text">本文链接地址</span></a>
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#你不需要JQuery"><span class="toc-number">1.</span> <span class="toc-text">你不需要JQuery</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#目录"><span class="toc-number">2.</span> <span class="toc-text">目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Query-Selector"><span class="toc-number">3.</span> <span class="toc-text">Query Selector</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CSS-amp-Style"><span class="toc-number">4.</span> <span class="toc-text">CSS & Style</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DOM-Manipulation"><span class="toc-number">5.</span> <span class="toc-text">DOM Manipulation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Ajax"><span class="toc-number">6.</span> <span class="toc-text">Ajax</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Events"><span class="toc-number">7.</span> <span class="toc-text">Events</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Utilities"><span class="toc-number">8.</span> <span class="toc-text">Utilities</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Alternatives"><span class="toc-number">9.</span> <span class="toc-text">Alternatives</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Browser-Support"><span class="toc-number">10.</span> <span class="toc-text">Browser Support</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#本文链接地址"><span class="toc-number"></span> <span class="toc-text">本文链接地址</span></a>
 		
 		</div>
 		
-		<h2 id="You-Don’t-Need-jQuery"><a href="#You-Don’t-Need-jQuery" class="headerlink" title="You Don’t Need jQuery"></a>You Don’t Need jQuery</h2><p>前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 DOM、Event 等再学习一下 jQuery 的 API。同时由于 React、Angular、Vue 等框架的流行，直接操作 DOM 不再是好的模式，jQuery 使用场景大大减少。本项目总结了大部分 jQuery API 替代的方法，暂时只支持 IE10+ 以上浏览器。</p>
+		<h2 id="你不需要JQuery"><a href="#你不需要JQuery" class="headerlink" title="你不需要JQuery"></a>你不需要JQuery</h2><p>前端发展很快，现代浏览器原生 API 已经足够好用。我们并不需要为了操作 DOM、Event 等再学习一下 jQuery 的 API。同时由于 React、Angular、Vue 等框架的流行，直接操作 DOM 不再是好的模式，jQuery 使用场景大大减少。本项目总结了大部分 jQuery API 替代的方法，暂时只支持 IE10+ 以上浏览器。</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ol>
 <li><a href="#translations">Translations</a></li>
 <li><a href="#query-selector">Query Selector</a></li>
@@ -372,7 +375,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="lliambryan777.github.io/2017/01/26/you-do-not-need-jquery/" data-title="you-do-not-need-jquery | Ef MichaelYoung&#39;s  Blog" data-tsina="null" class="share clearfix">
+	  <div data-url="lliambryan777.github.io/2017/01/26/you-do-not-need-jquery/" data-title="你不需要JQuery | Ef MichaelYoung&#39;s  Blog" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -398,7 +401,7 @@
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2017/01/26/you-do-not-need-jquery/" data-title="you-do-not-need-jquery" data-url="lliambryan777.github.io/2017/01/26/you-do-not-need-jquery/"></div>
+	<div class="ds-thread" data-thread-key="2017/01/26/you-do-not-need-jquery/" data-title="你不需要JQuery" data-url="lliambryan777.github.io/2017/01/26/you-do-not-need-jquery/"></div>
 </section>
 
 
@@ -408,7 +411,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">Contents</strong>
  
- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#You-Don’t-Need-jQuery"><span class="toc-number">1.</span> <span class="toc-text">You Don’t Need jQuery</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#目录"><span class="toc-number">2.</span> <span class="toc-text">目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Query-Selector"><span class="toc-number">3.</span> <span class="toc-text">Query Selector</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CSS-amp-Style"><span class="toc-number">4.</span> <span class="toc-text">CSS & Style</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DOM-Manipulation"><span class="toc-number">5.</span> <span class="toc-text">DOM Manipulation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Ajax"><span class="toc-number">6.</span> <span class="toc-text">Ajax</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Events"><span class="toc-number">7.</span> <span class="toc-text">Events</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Utilities"><span class="toc-number">8.</span> <span class="toc-text">Utilities</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Alternatives"><span class="toc-number">9.</span> <span class="toc-text">Alternatives</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Browser-Support"><span class="toc-number">10.</span> <span class="toc-text">Browser Support</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#本文链接地址"><span class="toc-number"></span> <span class="toc-text">本文链接地址</span></a>
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#你不需要JQuery"><span class="toc-number">1.</span> <span class="toc-text">你不需要JQuery</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#目录"><span class="toc-number">2.</span> <span class="toc-text">目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Query-Selector"><span class="toc-number">3.</span> <span class="toc-text">Query Selector</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CSS-amp-Style"><span class="toc-number">4.</span> <span class="toc-text">CSS & Style</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DOM-Manipulation"><span class="toc-number">5.</span> <span class="toc-text">DOM Manipulation</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Ajax"><span class="toc-number">6.</span> <span class="toc-text">Ajax</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Events"><span class="toc-number">7.</span> <span class="toc-text">Events</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Utilities"><span class="toc-number">8.</span> <span class="toc-text">Utilities</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Alternatives"><span class="toc-number">9.</span> <span class="toc-text">Alternatives</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Browser-Support"><span class="toc-number">10.</span> <span class="toc-text">Browser Support</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#本文链接地址"><span class="toc-number"></span> <span class="toc-text">本文链接地址</span></a>
  
   </div>
 
